@@ -1,0 +1,10 @@
+# EXPERIMENT 7: SUMMARY
+names <- c("Siri", "Mahi", "Chiru")
+age <- c(23, 24, 25)
+marks <- c(88, 78, 25)
+
+df <- data.frame(names, age, marks)
+
+print(summary(df$age))
+
+write.csv(df, "datafr.csv", row.names = FALSE)
